@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú Principal – La Proveedora</title>
+
+<style>
+    body{
+        margin:0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(to right, #00416A, #E4E5E6);
+        color:#fff;
+    }
+
+    header{
+        text-align:center;
+        padding:30px 10px;
+    }
+
+    header img{
+        width:260px;
+        filter: drop-shadow(0 0 5px #0005);
+    }
+
+    h1{
+        font-weight:600;
+        margin-top:15px;
+        font-size:28px;
+        color:white;
+    }
+
+    .contenedor{
+        max-width:1100px;
+        margin:40px auto;
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+        gap:25px;
+        padding:20px;
+    }
+
+    .card{
+        background:white;
+        color:#00416A;
+        padding:25px;
+        border-radius:18px;
+        text-align:center;
+        font-weight:600;
+        font-size:18px;
+        text-decoration:none;
+        box-shadow:0 4px 15px rgba(0,0,0,0.15);
+        transition: transform .25s, box-shadow .25s;
+        border:2px solid transparent;
+    }
+
+    .card:hover{
+        transform: translateY(-6px);
+        box-shadow:0 8px 22px rgba(0,0,0,0.25);
+        border-color:#00416A;
+    }
+
+    footer{
+        text-align:center;
+        padding:20px;
+        font-size:14px;
+        opacity:0.8;
+        margin-top:30px;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- Inserta tu imagen -->
+    <img src="logo_proveedora.png" alt="Logo La Proveedora">
+    <h1>Panel Principal – La Proveedora</h1>
+</header>
+
+<div class="contenedor">
+
+    <a class="card" href="https://lizandrolumbreras.github.io/INVENTARIO-ZAPATA/">
+        Inventario Total
+    </a>
+
+    <a class="card" href="https://lizandrolumbreras.github.io/AJUSTE-ZAPATA-NUEVO/">
+        Ajuste de Inventario
+    </a>
+
+    <a class="card" href="https://lizandrolumbreras.github.io/CARGA-FACTURAS-ZAPATA/">
+        Cargar Facturas
+    </a>
+
+    <a class="card" href="https://lizandrolumbreras.github.io/Monitoreo-Zapata/">
+        Monitoreo de Salidas
+    </a>
+
+    <a class="card" href="https://lizandrolumbreras.github.io/SALIDA-ZAPATA-V1.2/">
+        Registrar Salida
+    </a>
+
+</div>
+
+<footer>
+    La Proveedora © 2025 – Menú General
+</footer>
+
+</body>
+</html>
